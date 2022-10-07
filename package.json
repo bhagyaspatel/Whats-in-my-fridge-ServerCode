@@ -1,0 +1,21 @@
+{
+  "name": "whatsinmyfridge_push",
+  "version": "1.0.0",
+  "description": "Android app to explore new recipes you can make based on the ingredients you have in your fridge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Bhagya Patel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
